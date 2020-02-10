@@ -166,7 +166,7 @@ p {
 @media only screen and (max-width: 1200px) {
     .about-section {
        z-index: 1;
-       margin-top: 50%;
+       margin-top: 70%;
     }
 }
 /****/
@@ -373,6 +373,10 @@ p {
 }
 
 @media only screen and (max-width: 1200px) {
+    .portfolio-description {
+        margin-top: 90%;
+    }
+
     .github-links {
         margin-left: 30%;
     }
