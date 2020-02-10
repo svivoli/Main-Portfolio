@@ -320,11 +320,16 @@ p {
 /****/
 /******* portfolio *******/
 .article-portfolio {
-    /* margin-left: 55px; */
+    margin-left: 50px;
     margin-bottom: 70px;
     -moz-column-width: 35em;
     -webkit-column-width: 35em;
 }
+
+.image-hover-wrapper {
+    width: 600px;
+}
+
 .portfolio-description {
     margin-top: 220px;
     margin-bottom: 90px;
