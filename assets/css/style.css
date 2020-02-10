@@ -232,13 +232,16 @@ p {
     -webkit-transform: scale(1.1) rotate(.01deg);
             transform: scale(1.1) rotate(.01deg);
 }
+
+@media only screen and (max-width: 1200px) {
+    .cred-title {
+        padding-top: 75px;
+    }
+}
 /****/
 /* bootcamp */
 .bootcamp-section {
     margin: 0 !important;
-    height: 250px;
-}
-#bootcamp {
     height: 250px;
 }
 
@@ -250,6 +253,12 @@ p {
 .bootcamp-link:hover {
     text-decoration: none;
     color: lightgray !important;
+}
+
+@media only screen and (max-width: 1200px) {
+    .bootcamp-section {
+        background-image: cover;
+    }
 }
 /****/
 /* find */
