@@ -371,6 +371,12 @@ p {
     margin-left: 525px;
     text-align: left;
 }
+
+@media only screen and (max-width: 1200px) {
+    .github-links {
+        margin-left: 30%;
+    }
+}
 /* footer */
 .holy-grail-footer {
     background-color: black;
