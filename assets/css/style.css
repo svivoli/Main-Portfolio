@@ -307,6 +307,14 @@ p {
 }
 /****/
 /* contact */
+.outerbox {
+    margin: 270px 150px 170px 150px;
+    padding: 0 30px 40px 30px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    background-color: white;
+    line-height: 150%;
+}
 .contact-card {
     text-align: center;
     font-family: 'Raleway', sans-serif;
@@ -339,6 +347,13 @@ p {
     -webkit-transform: scale(1.2) rotate(.01deg);
             transform: scale(1.2) rotate(.01deg);
 }
+
+@media only screen and (max-width: 1200px) {
+    .outerbox {
+        margin-top: 90%;
+    }
+}
+
 /****/
 /******* portfolio *******/
 .article-portfolio {
@@ -413,16 +428,6 @@ p {
     display: grid;
     grid-template-rows: auto 1fr auto;
 }
-
-.outerbox {
-    margin: 270px 150px 170px 150px;
-    padding: 0 30px 40px 30px;
-    text-align: center;
-    font-family: 'Raleway', sans-serif;
-    background-color: white;
-    line-height: 150%;
-}
-
 .title {
     text-align: center;
     padding-top: 50px;
