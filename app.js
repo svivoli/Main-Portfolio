@@ -8,7 +8,7 @@ const app = express();
 
 // View engine setup
 app.engine('handlebars', exphbs());
-app.set('view engine', 'handelbars');
+app.set('view engine', 'handlebars');
 
 // Static folder
 app.use('/public', express.static(path.join(__dirname, 'public')));
@@ -18,7 +18,7 @@ app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
 
 app.get('/', (req, res) =>{
-    res.send('Hello')
+    res.render('contact')
 });
 
  app.listen(3000, () => console.log('Server started...'));
