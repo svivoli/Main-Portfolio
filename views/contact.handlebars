@@ -33,29 +33,44 @@
 
                 <div id="contactCard">
                     <h3 class="title">Send a Note</h3>
-                    <form class="uk-form-stacked" method="POST" action="/send">
+                    <form class="uk-form-stacked" method="POST" action="send">
                         <div class="uk-margin">
                             <label id="label" class="uk-form-label" for="form-stacked-text">Name</label>
                             <div class="uk-form-controls">
-                                <input class="uk-input" id="sender form-stacked-text" type="text"
+                                <input class="uk-input" id="sender form-stacked-text" type="text" name="contactName"
                                     placeholder="Princess Zelda">
+                            </div>
+                        </div>
+                        <div class="uk-margin">
+                            <label id="label" class="uk-form-label" for="form-stacked-text">Company</label>
+                            <div class="uk-form-controls">
+                                <input class="uk-input" id="senderCompany form-stacked-text" type="text" name="contactCompany"
+                                    placeholder="Kingdom of Hyrule">
                             </div>
                         </div>
                         <div class="uk-margin">
                             <label id="label" class="uk-form-label" for="form-stacked-text">Email</label>
                             <div class="uk-form-controls">
-                                <input class="uk-input" id="senderEmail form-stacked-text" type="text"
+                                <input class="uk-input" id="senderEmail form-stacked-text" type="text" name="contactEmail"
                                     placeholder="whereslink@gmail.com">
+                            </div>
+                        </div>
+                        <div class="uk-margin">
+                            <label id="label" class="uk-form-label" for="form-stacked-text">Phone</label>
+                            <div class="uk-form-controls">
+                                <input class="uk-input" id="senderPhone form-stacked-text" type="text" name="contactPhone"
+                                    placeholder="(444) 444-4444">
                             </div>
                         </div>
                         <div class="uk-margin">
                             <label id="label" class="uk-form-label" for="form-stacked-text">Message</label>
                             <div class="uk-form-controls">
-                                <textarea class="uk-textarea" id="senderMessage" rows="5"></textarea>
+                                <textarea class="uk-textarea" id="senderMessage" name="contactMessage" rows="5"></textarea>
                             </div>
                         </div>
+                    <button class="submit-btn uk-button uk-button-default" type="submit">Send</button>
                     </form>
-                    <button class="submit-btn uk-button uk-button-default">Submit</button>
+                    {{ msg }}
                 </div>
 
             </div>
