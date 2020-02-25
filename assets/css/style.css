@@ -308,7 +308,7 @@ p {
 /****/
 /* contact */
 .outerbox {
-    margin: 270px 150px 170px 150px;
+    margin: 20% 15% 13% 15%;
     padding: 0 30px 40px 30px;
     text-align: center;
     font-family: 'Raleway', sans-serif;
@@ -402,6 +402,24 @@ p {
     color: white;
 }
 /***/
+/******* contact *******/
+#email {
+    color: #197985;
+    font-size: 28px;
+}
+
+#email-icon:hover {
+    color: lightgray;
+    -webkit-transform: scale(1.2) rotate(.01deg);
+            transform: scale(1.2) rotate(.01deg);
+}
+
+.fab, .fas {
+    padding: 13px;
+}
+/****/
+
+
 #name {
     /* padding-top: 20px; */
     color: #C5B09D;
@@ -625,40 +643,10 @@ p {
     margin-top: 70px;
 }
 
-#email {
-    padding-top: 20px;
-}
-
 #linkCard {
     height: 135px;
 }
 
-#linkedIn, #resume, #email, #phone {
-    color: #197985;
-    font-size: 28px;
-}
-
-#email:hover {
-    color: lightgray;
-    -webkit-transform: scale(1.2) rotate(.01deg);
-            transform: scale(1.2) rotate(.01deg);
-}
-
-#linkedIn:hover {
-    color: lightgray;
-    -webkit-transform: scale(1.2) rotate(.01deg);
-            transform: scale(1.2) rotate(.01deg);
-}
-
-#resume:hover {
-    color: lightgray;
-    -webkit-transform: scale(1.2) rotate(.01deg);
-            transform: scale(1.2) rotate(.01deg);
-}
-
-.fab, .fas {
-    padding: 13px;
-}
 
 #label {
     font-size: 18px;
