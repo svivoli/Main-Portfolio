@@ -1,0 +1,26 @@
+{
+  "name": "masonry",
+  "version": "1.0.0",
+  "description": "portfolio site",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/svivoli/Simple-Portfolio.git"
+  },
+  "author": "sarah vivoli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/svivoli/Simple-Portfolio/issues"
+  },
+  "homepage": "https://github.com/svivoli/Simple-Portfolio#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "nodemailer": "^6.4.3",
+    "nodemon": "^2.0.2"
+  }
+}
