@@ -2,5 +2,5 @@
 
 ### Links to Project
 
-[Live link](https://svivoli.github.io/Portfolio-Masonry/)  
-[GitHub Repository](https://github.com/svivoli/Portfolio-Masonry)
+[Live link](https://svivoli.github.io/portfolio-Masonry/)  
+[GitHub Repository](https://github.com/svivoli/portfolio-Masonry)
