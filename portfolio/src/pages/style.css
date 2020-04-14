@@ -1,0 +1,142 @@
+html, body {
+    height: 120%;
+    margin: 0;
+}
+/* fonts */
+p {
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    color: #777777;
+}
+h2 {
+    font-size: 28px;
+}
+.title {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    color: #4f4f4f;
+    font-family: 'Raleway', sans-serif;
+}
+/* grid */
+@import "compass/css3";
+*, *:before, *:after {box-sizing:  border-box !important;}
+article {
+ -moz-column-width: 35em;
+ -webkit-column-width: 35em;
+ /* -moz-column-gap: 2em;
+ -webkit-column-gap: 2em;  */
+}
+section {
+ display: inline-block;
+ padding:  1rem;
+ width:  100%;
+}
+p {
+ margin:  1rem 0; 
+}
+.holy-grail-grid {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 1fr 8fr 1fr;
+    grid-gap: 20px;
+    height: 50vh; 
+    /* // redefining grid on small */
+    @media screen and (max-width: 60em) {
+      grid-template-rows: 2fr 1fr 5fr 1fr;
+    }
+  }
+  .holy-grail-left {
+    margin-left: 50px;
+  }
+  .holy-grail-middle {
+      margin-left: 50px;
+  }
+  .holy-grail-header,
+  .holy-grail-left,
+  .holy-grail-middle,
+  .holy-grail-right,
+  .holy-grail-footer {
+    padding: 1rem;
+  }
+  .holy-grail-header {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+  }
+  .holy-grail-left {
+    @media screen and (max-width: 60em) {
+      grid-row-start: 2;
+      grid-column-start: 1;
+      grid-column-end: 4;
+    }
+  }
+  .holy-grail-middle {
+    @media screen and (max-width: 60em) {
+      grid-row-start: 3;
+      grid-column-start: 1;
+      grid-column-end: 6;
+    }
+  }
+  .right-nav {
+    @media screen and (max-width: 60em) {
+      grid-row-start: 4;
+      grid-column-start: 1;
+      grid-column-end: 4;
+    }
+  }
+  .holy-grail-footer {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    font-family: 'Raleway', sans-serif;
+  }
+/****/
+/* header */
+.large-header {
+    position: relative;
+    width: 100%;
+    background: #111;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+    z-index: 1;
+ }
+ .demo .large-header {
+    background-image: url("https://i.imgur.com/ccijpea.jpg");
+    z-index: 0;
+ }
+ .main-title {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    padding-top: 90px;
+    color: #F9F1E9;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+    transform: translate3d(-50%, -50%, 0);
+ }
+ .demo .main-title {
+    text-transform: uppercase;
+    font-size: 4.2em;
+    letter-spacing: 0.1em;
+ }
+ .main-title .thin {
+    font-weight: 200;
+ }
+ @media only screen and (max-width: 768px) {
+    .demo .main-title {
+       font-size: 3em;
+    }
+}
+ @media only screen and (max-width: 1200px) {
+     .subnav-hero-section {
+        z-index: 0;
+     }
+ }
+ /* footer */
+.holy-grail-footer {
+    background-color: black;
+    color: white;
+}

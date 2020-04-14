@@ -1,17 +1,17 @@
 import React from 'react';
 import Header from '../components/Header';
-import HomeMain from '../components/HomeMain';
+import PortfolioContainer from '../components/PortfolioContainer';
 import Footer from '../components/Footer';
 import './style.css';
 
-function Home() {
+function Portfolio() {
     return (
         <div>
             <Header />
-            <HomeMain />
+            <PortfolioContainer />
             <Footer />
         </div>
     )
-}
+};
 
-export default Home;
+export default Portfolio;
