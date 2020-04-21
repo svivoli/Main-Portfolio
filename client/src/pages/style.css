@@ -139,3 +139,25 @@ p {
     background-color: black;
     color: white;
 }
+.social-btns ul {
+  text-align: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.social-btns li {
+  display: inline-block;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.social-btns li:first-of-type {
+  padding-left: 0;
+}
+.social-icon {
+  color: gray;
+}
+.social-icon:hover {
+  -webkit-transform: scale(1.2) rotate(0.01deg);
+  transform: scale(1.2) rotate(0.01deg);
+}
