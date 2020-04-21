@@ -3,17 +3,17 @@ import "../style.css";
 
 function Header() {
     return (
-        <header class="subnav-hero-section">
-            <div class="container demo">
-                <div class="content">
-                    <div id="large-header" class="large-header">
+        <header className="subnav-hero-section">
+            <div className="container demo">
+                <div className="content">
+                    <div id="large-header" className="large-header">
                         <canvas id="demo-canvas"></canvas>
-                        <h1 class="main-title"><span class="thin">Sarah Vivoli</span></h1>
+                        <h1 className="main-title"><span className="thin">Sarah Vivoli</span></h1>
                     </div>
                 </div>
             </div>
-            <ul class="subnav-hero-subnav">
-                <li><a href="index.html" class="is-active">HOME</a></li>
+            <ul className="subnav-hero-subnav">
+                <li><a href="index.html" className="is-active">HOME</a></li>
                 <li><a href="portfolio.html">PORTFOLIO</a></li>
             </ul>
         </header>

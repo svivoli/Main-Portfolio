@@ -3,178 +3,192 @@ import '../style.css';
 
 function Projects() {
     return (
-        <article class="article-portfolio">
+        <article className="article-portfolio">
 
             <section class="portfolio1">
                 <div class="image-hover-wrapper">
+                    <a href="https://u-incahoots.herokuapp.com/" target="_blank"><img src="assets/images/portfolio/cahoots.png"
+                            width="600"></img>
+                        <span class="image-hover-wrapper-reveal">
+
+                            <p><strong>Cahoots</strong><br></br>Curate and join events in your neighborhood<br></br><br></br>
+                                Check it<br></br><i class="fa fa-link" aria-hidden="true"></i>
+                            </p>
+                        </span>
+                    </a>
+                </div>
+            </section>
+
+            <section className="portfolio1">
+                <div className="image-hover-wrapper">
                     <a href="https://g00gleb00ks.herokuapp.com/" target="_blank"><img src="assets/images/portfolio/books.png"
                         width="600"></img>
-                        <span class="image-hover-wrapper-reveal">
+                        <span className="image-hover-wrapper-reveal">
 
                             <p><strong>Google Books</strong><br></br>Search for and save books from Google<br></br><br></br>
-                            Check it<br></br><i class="fa fa-link" aria-hidden="true"></i>
+                            Check it<br></br><i className="fa fa-link" aria-hidden="true"></i>
                             </p>
                         </span>
                     </a>
                 </div>
             </section>
 
-            <section class="portfolio1">
-                <div class="image-hover-wrapper">
+            <section className="portfolio1">
+                <div className="image-hover-wrapper">
                     <a href="https://employee-direct0ry.herokuapp.com/" target="_blank"><img src="assets/images/portfolio/employee.png"
                         width="600"></img>
-                        <span class="image-hover-wrapper-reveal">
+                        <span className="image-hover-wrapper-reveal">
 
                             <p><strong>Employee Directory</strong><br></br>Search and sort employees<br></br><br></br>
-                            Check it<br></br><i class="fa fa-link" aria-hidden="true"></i>
+                            Check it<br></br><i className="fa fa-link" aria-hidden="true"></i>
                             </p>
                         </span>
                     </a>
                 </div>
             </section>
 
-            <section class="portfolio1">
-                <div class="image-hover-wrapper">
+            <section className="portfolio1">
+                <div className="image-hover-wrapper">
                     <a href="https://track-your-budg3t.herokuapp.com/" target="_blank"><img src="assets/images/portfolio/budget.png"
                         width="600"></img>
-                        <span class="image-hover-wrapper-reveal">
+                        <span className="image-hover-wrapper-reveal">
 
                             <p><strong>Budget Tracker</strong><br></br>Track your spending and savings<br></br><br></br>
-                            Check it<br></br><i class="fa fa-link" aria-hidden="true"></i>
+                            Check it<br></br><i className="fa fa-link" aria-hidden="true"></i>
                             </p>
                         </span>
                     </a>
                 </div>
             </section>
 
-            <section class="portfolio1">
-                <div class="image-hover-wrapper">
+            <section className="portfolio1">
+                <div className="image-hover-wrapper">
                     <a href="https://w0rkout-tracker.herokuapp.com/" target="_blank"><img src="assets/images/portfolio/fitness.png"
                         width="600"></img>
-                        <span class="image-hover-wrapper-reveal">
+                        <span className="image-hover-wrapper-reveal">
 
                             <p><strong>Workout Tracker</strong><br></br>Track your workout progress<br></br><br></br>
-                            Check it<br></br><i class="fa fa-link" aria-hidden="true"></i>
+                            Check it<br></br><i className="fa fa-link" aria-hidden="true"></i>
                             </p>
                         </span>
                     </a>
                 </div>
             </section>
 
-            <section class="portfolio1">
-                <div class="image-hover-wrapper">
-                    <a href="https://jeretc79.github.io/project1/" target="_blank"><img src="assets/images/portfolio/showmeshows.JPEG"
+            <section className="portfolio1">
+                <div className="image-hover-wrapper">
+                    <a href="https://jeretc79.github.io/project1/" target="_blank"><img src="assets/images/portfolio/shows.png"
                         width="600"></img>
-                        <span class="image-hover-wrapper-reveal">
+                        <span className="image-hover-wrapper-reveal">
 
                             <p><strong>SHOWMESHOWS</strong><br></br>Concert Locator and Reminder<br></br>(Currently under maintenance)<br></br><br></br>
-                            Check it<br></br><i class="fa fa-link" aria-hidden="true"></i>
+                            Check it<br></br><i className="fa fa-link" aria-hidden="true"></i>
                             </p>
                         </span>
                     </a>
                 </div>
             </section>
 
-            <section class="portfolio3">
-                <div class="image-hover-wrapper">
-                    <a href="https://peer-one.herokuapp.com/" target="_blank"><img src="assets/images/portfolio/peer-up.png"
+            <section className="portfolio3">
+                <div className="image-hover-wrapper">
+                    <a href="https://peer-one.herokuapp.com/" target="_blank"><img src="assets/images/portfolio/peerup.png"
                         width="600"></img>
-                        <span class="image-hover-wrapper-reveal">
+                        <span className="image-hover-wrapper-reveal">
                             <p><strong>peɘr up</strong><br></br>A collaborative website for coding students<br></br><br></br>
-                        Check it<br></br><i class="fa fa-link" aria-hidden="true"></i>
+                        Check it<br></br><i className="fa fa-link" aria-hidden="true"></i>
                             </p>
                         </span>
                     </a>
                 </div>
             </section>
 
-            <section class="portfolio2">
-                <div class="image-hover-wrapper">
-                    <a href="https://svivoli.github.io/Weather-Dashboard/" target="_blank"><img src="assets/images/portfolio/weatherapp.jpg"
+            <section className="portfolio2">
+                <div className="image-hover-wrapper">
+                    <a href="https://svivoli.github.io/Weather-Dashboard/" target="_blank"><img src="assets/images/portfolio/weather.png"
                         width="600"></img>
-                        <span class="image-hover-wrapper-reveal">
+                        <span className="image-hover-wrapper-reveal">
                             <p><strong>WEATHER DASH</strong><br></br>Displays current and forecasted weather based on searched
                             criteria<br></br><br></br>
-                            Check it<br></br><i class="fa fa-link" aria-hidden="true"></i>
+                            Check it<br></br><i className="fa fa-link" aria-hidden="true"></i>
                             </p>
                         </span>
                     </a>
                 </div>
             </section>
 
-            <section class="portfolio3">
-                <div class="image-hover-wrapper">
-                    <a href="https://svivoli.github.io/Daily-Planner/" target="_blank"><img src="assets/images/portfolio/planner.jpg"
+            <section className="portfolio3">
+                <div className="image-hover-wrapper">
+                    <a href="https://svivoli.github.io/Daily-Planner/" target="_blank"><img src="assets/images/portfolio/daily.png"
                         width="600"></img>
-                        <span class="image-hover-wrapper-reveal">
+                        <span className="image-hover-wrapper-reveal">
                             <p><strong>DAILY PLANNER</strong><br></br>Organize your daily tasks by hour using local
                             storage<br></br><br></br>
-                            Check it<br></br><i class="fa fa-link" aria-hidden="true"></i>
+                            Check it<br></br><i className="fa fa-link" aria-hidden="true"></i>
                             </p>
                         </span>
                     </a>
                 </div>
             </section>
 
-            <section class="portfolio3">
-                <div class="image-hover-wrapper">
-                    <a href="https://stark-everglades-05320.herokuapp.com/" target="_blank"><img src="assets/images/portfolio/diner.jpg"
+            <section className="portfolio3">
+                <div className="image-hover-wrapper">
+                    <a href="https://stark-everglades-05320.herokuapp.com/" target="_blank"><img src="assets/images/portfolio/burger.png"
                         width="600"></img>
-                        <span class="image-hover-wrapper-reveal">
+                        <span className="image-hover-wrapper-reveal">
                             <p><strong>Burger Logger</strong><br></br>A log for burger lovers<br></br><br></br>
-                        Check it<br></br><i class="fa fa-link" aria-hidden="true"></i>
+                        Check it<br></br><i className="fa fa-link" aria-hidden="true"></i>
                             </p>
                         </span>
                     </a>
                 </div>
             </section>
 
-            <section class="portfolio3">
-                <div class="image-hover-wrapper">
-                    <a href="https://aqueous-journey-39158.herokuapp.com/" target="_blank"><img src="assets/images/portfolio/note-taker.png"
+            <section className="portfolio3">
+                <div className="image-hover-wrapper">
+                    <a href="https://aqueous-journey-39158.herokuapp.com/" target="_blank"><img src="assets/images/portfolio/note.png"
                         width="600"></img>
-                        <span class="image-hover-wrapper-reveal">
+                        <span className="image-hover-wrapper-reveal">
                             <p><strong>Note Taker</strong><br></br>Write, save and delete notes<br></br><br></br>
-                        Check it<br></br><i class="fa fa-link" aria-hidden="true"></i>
+                        Check it<br></br><i className="fa fa-link" aria-hidden="true"></i>
                             </p>
                         </span>
                     </a>
                 </div>
             </section>
 
-            <section class="portfolio4">
-                <div class="image-hover-wrapper">
-                    <a href="https://svivoli.github.io/Portfolio1/" target="_blank"><img src="assets/images/portfolio/portfolio.png"
+            <section className="portfolio4">
+                <div className="image-hover-wrapper">
+                    <a href="https://svivoli.github.io/Portfolio1/" target="_blank"><img src="assets/images/portfolio/portfolio0.png"
                         width="600"></img>
-                        <span class="image-hover-wrapper-reveal">
+                        <span className="image-hover-wrapper-reveal">
                             <p><strong>Early Portfolio</strong><br></br><br></br>
-                        Check it<br></br><i class="fa fa-link" aria-hidden="true"></i>
+                        Check it<br></br><i className="fa fa-link" aria-hidden="true"></i>
                             </p>
                         </span>
                     </a>
                 </div>
             </section>
 
-            <section class="portfolio3">
-                <div class="image-hover-wrapper">
-                    <a href="https://svivoli.github.io/Portfolio-Pink-Grey/" target="_blank"><img src="assets/images/portfolio/beachfull1.jpg"
+            <section className="portfolio3">
+                <div className="image-hover-wrapper">
+                    <a href="https://svivoli.github.io/Portfolio-Pink-Grey/" target="_blank"><img src="assets/images/portfolio/portfolio1.png"
                         width="600"></img>
-                        <span class="image-hover-wrapper-reveal">
+                        <span className="image-hover-wrapper-reveal">
                             <p><strong>Later Portfolio 1</strong><br></br>Featuring continuous scroll and generated theme<br></br><br></br>
-                        Check it<br></br><i class="fa fa-link" aria-hidden="true"></i>
+                        Check it<br></br><i className="fa fa-link" aria-hidden="true"></i>
                             </p>
                         </span>
                     </a>
                 </div>
             </section>
 
-            <section class="portfolio3">
-                <div class="image-hover-wrapper">
-                    <a href="https://svivoli.github.io/Portfolio-Simple-Blue/" target="_blank"><img src="assets/images/portfolio/desk1.jpg"
+            <section className="portfolio3">
+                <div className="image-hover-wrapper">
+                    <a href="https://svivoli.github.io/Portfolio-Simple-Blue/" target="_blank"><img src="assets/images/portfolio/portfolio2.png"
                         width="600"></img>
-                        <span class="image-hover-wrapper-reveal">
+                        <span className="image-hover-wrapper-reveal">
                             <p><strong>Later Portfolio 2</strong><br></br>Featuring continuous scroll and another generated theme<br></br><br></br>
-                        Check it<br></br><i class="fa fa-link" aria-hidden="true"></i>
+                        Check it<br></br><i className="fa fa-link" aria-hidden="true"></i>
                             </p>
                         </span>
                     </a>

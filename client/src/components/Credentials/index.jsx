@@ -3,15 +3,15 @@ import '../style.css';
 
 function Credentials() {
     return (
-        <section class="resume-section">
+        <section className="resume-section">
 
-            <div class="cred">
+            <div className="cred">
 
-                <h2 class="cred-title">Credentials</h2>
+                <h2 className="cred-title">Credentials</h2>
 
-                <div class="credentials uk-child-width-expand@s" uk-grid>
-                    <div id="credentials" class="uk-grid-item-match">
-                        <div class="education uk-card uk-card-default uk-card-body">
+                <div className="credentials uk-child-width-expand@s" uk-grid>
+                    <div id="credentials" className="uk-grid-item-match">
+                        <div className="education uk-card uk-card-default uk-card-body">
                             <h3>Education</h3>
                             <ul id="education">
                                 <li>
@@ -33,14 +33,14 @@ function Credentials() {
                             </ul>
                         </div>
                     </div>
-                    <div class="resume">
-                        <h3 class="resume-title">Resume</h3>
-                        <p class="resume-text">
+                    <div className="resume">
+                        <h3 className="resume-title">Resume</h3>
+                        <p className="resume-text">
                             You can view my full resume by clicking the icon below. 
                             <br></br> Feel free to download a copy.
                         </p>
                         <a href="https://docs.google.com/document/d/1Dgleh29HBpD2juFqEO7xUXNbs7VSOeoedjUGzAnZqHc/edit?usp=sharing"
-                            target="_blank"><i class="document fas fa-file-alt"></i></a>
+                            target="_blank"><i className="document fas fa-file-alt"></i></a>
                     </div>
                 </div>
                 

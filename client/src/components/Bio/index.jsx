@@ -3,12 +3,12 @@ import '../style.css';
 
 function Bio() {
     return (
-        <section class="about-section">
-            <div class="about">
+        <section className="about-section">
+            <div className="about">
 
-                <div class="bio-head">
-                    <h2 class="title">Get to know me</h2>
-                    <img class="biopic" src="assets/images/beach.jpg" width="95" height="95" alt="Hey, That's Me"></img>
+                <div className="bio-head">
+                    <h2 className="title">Get to know me</h2>
+                    <img className="biopic" src="assets/images/beach.jpg" width="95" height="95" alt="Hey, That's Me"></img>
                 </div>
                     <p>I was born and raised in Silicon Valley and moved to Oregon
                     to attend college at the University of Oregon. I am now 25 years young living in Portland where
@@ -19,7 +19,7 @@ function Bio() {
                     of my economics
                     degree when we used various software programs to code for economic purposes (make models, run
                     regressions,
-                    forecast, etc). After taking an intro to CIS class my junior year, I was sure that I was going
+                    forecast, etc). After taking an intro to CIS className my junior year, I was sure that I was going
                     to switch gears
                 after finishing my degree.</p>
 
