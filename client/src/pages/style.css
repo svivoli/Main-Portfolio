@@ -19,7 +19,6 @@ h2 {
     font-family: 'Raleway', sans-serif;
 }
 /* grid */
-@import "compass/css3";
 *, *:before, *:after {box-sizing:  border-box !important;}
 article {
  -moz-column-width: 35em;
