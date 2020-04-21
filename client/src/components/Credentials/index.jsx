@@ -36,16 +36,11 @@ function Credentials() {
                     <div class="resume">
                         <h3 class="resume-title">Resume</h3>
                         <p class="resume-text">
-                            You can view my full resume
-                            <br></br>
-                            by clicking the Google Drive
-                            <br></br>
-                            icon below. Feel free to
-                            <br></br>
-                            download a copy.
+                            You can view my full resume by clicking the icon below. 
+                            <br></br> Feel free to download a copy.
                         </p>
                         <a href="https://docs.google.com/document/d/1Dgleh29HBpD2juFqEO7xUXNbs7VSOeoedjUGzAnZqHc/edit?usp=sharing"
-                            target="_blank"><i class="google fab fa-google-drive"></i></a>
+                            target="_blank"><i class="document fas fa-file-alt"></i></a>
                     </div>
                 </div>
                 
