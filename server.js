@@ -19,6 +19,9 @@ router.use(function (req, res) {
     res.sendFile(path.join(__dirname, "../client/build/index.html"));
 });
 
+app.get("/portfolio", function (req, res) {
+    res.sendFile(path.join(__dirname, "../client/build/index.html"));
+})
 
 app.listen(PORT, function () {
     console.log(`🌎 Server listening on port ${PORT}!`);

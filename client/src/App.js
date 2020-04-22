@@ -1,7 +1,8 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Home from "./pages/Home";
-import Portfolio from "./pages/Portfolio";
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Home from './pages/Home';
+import Portfolio from './pages/Portfolio';
+import Error from './pages/Error';
 import './App.css';
 
 function App() {
@@ -14,6 +15,9 @@ function App() {
         </Route>
         <Route exact path="/portfolio">
           <Portfolio />
+        </Route>
+        <Route>
+          <Error />
         </Route>
       </Switch>
     </div>
