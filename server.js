@@ -1,6 +1,5 @@
 const express = require("express");
 const path = require("path");
-const router = require("express").Router();
 
 const PORT = process.env.PORT || 3001;
 const app = express();
@@ -15,10 +14,6 @@ if (process.env.NODE_ENV === "production") {
 }
 
 // Routes
-// router.use(function (req, res) {
-//     res.sendFile(path.join(__dirname, "../client/build/index.html"));
-// });
-
 app.get("*", function (req, res) {
     res.sendFile(path.join(__dirname, "./client/build/index.html"));
 })
