@@ -221,11 +221,10 @@ h2 {
 /* bootcamp */
 .bootcamp-section {
   margin: 0 !important;
-  height: 250px;
   background-size: cover;
 }
-.bootcamp-section h2 {
-  padding-top: 60px;
+.program-link {
+  margin-top: 100px !important;
 }
 .bootcamp-link {
   font-family: "Raleway", sans-serif;
