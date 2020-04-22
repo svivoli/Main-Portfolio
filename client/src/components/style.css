@@ -202,16 +202,21 @@ h2 {
   -webkit-transform: scale(1.1) rotate(0.01deg);
   transform: scale(1.1) rotate(0.01deg);
 }
+@media only screen and (max-width: 1000px) {
+    .resume {
+      margin-left: 5%;
+    }
+  }
 @media only screen and (max-width: 1200px) {
   .cred-title {
     padding-top: 75px;
   }
 }
-@media only screen and (max-width: 1200px) {
+/* @media only screen and (max-width: 1200px) {
   .credentials {
     width: 1000px;
   }
-}
+} */
 /****/
 /* bootcamp */
 .bootcamp-section {

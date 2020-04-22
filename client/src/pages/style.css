@@ -203,11 +203,11 @@ h2 {
     padding-top: 75px;
   }
 }
-@media only screen and (max-width: 1200px) {
+/* @media only screen and (max-width: 1200px) {
   .credentials {
     width: 1000px;
   }
-}
+} */
 /****/
 /* bootcamp */
 .bootcamp-section {

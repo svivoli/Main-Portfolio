@@ -10,7 +10,7 @@ function Credentials() {
                 <h2 className="cred-title">Credentials</h2>
 
                 <div className="credentials row">
-                    <div id="credentials" className="col-md-6">
+                    <div id="credentials" className="col-lg-6 col-md-6 col-sm-4 col-3">
                         <div className="education uk-card uk-card-default uk-card-body">
                             <h3>Education</h3>
                             <ul id="education">
@@ -33,7 +33,7 @@ function Credentials() {
                             </ul>
                         </div>
                     </div>
-                    <div className="resume col-md-6">
+                    <div className="resume col-lg-6 col-md-7 col-sm-9 col-10">
                         <h3 className="resume-title">Resume</h3>
                         <p className="resume-text">
                             You can view my full resume by clicking the icon below. 
