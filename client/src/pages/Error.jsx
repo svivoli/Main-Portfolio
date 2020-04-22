@@ -12,6 +12,7 @@ function Error() {
                         <div id="large-header" className="large-header">
                             <canvas id="demo-canvas"></canvas>
                             <h1 className="main-title"><span className="thin">Sarah Vivoli</span></h1>
+                            <h3 className="main-subtitle">full stack web developer</h3>
                         </div>
                     </div>
                 </div>
