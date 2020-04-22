@@ -20,6 +20,11 @@ h2 {
   font-family: "Raleway", sans-serif;
 }
 /****/
+.article-portfolio {
+  flex-direction: column;
+  -moz-column-width: 150em;
+  -webkit-column-width: 150em;
+}
 /* header */
 .large-header {
   position: relative;
@@ -91,7 +96,7 @@ h2 {
   transform: scale(1.5) rotate(0.01deg);
 }
 .about-section {
-  margin-top: 220px;
+  margin-top: 30px;
 }
 .about {
   text-align: left;
@@ -105,20 +110,18 @@ h2 {
 @media only screen and (max-width: 1200px) {
   .article-home {
     flex-direction: column;
-    -moz-column-width: 70em;
-    -webkit-column-width: 70em;
+    -moz-column-width: 150em;
+    -webkit-column-width: 150em;
   }
 }
 @media only screen and (max-width: 1200px) {
   .about-section {
     z-index: 1;
-    margin-top: 15%;
   }
 }
 @media only screen and (max-width: 1000px) {
   .about-section {
     z-index: 1;
-    margin-top: 20%;
   }
 }
 /****/
@@ -174,7 +177,7 @@ h2 {
   font-family: "Raleway", sans-serif;
 }
 .education {
-  margin-left: 50px;
+  margin-left: 60px;
 }
 #cert {
   color: #197985;

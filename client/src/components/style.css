@@ -95,7 +95,7 @@ h2 {
   transform: scale(1.5) rotate(0.01deg);
 }
 .about-section {
-  margin-top: 220px;
+  margin-top: 30px;
 }
 .about {
   text-align: left;
@@ -109,20 +109,18 @@ h2 {
 @media only screen and (max-width: 1200px) {
   .article-home {
     flex-direction: column;
-    -moz-column-width: 70em;
-    -webkit-column-width: 70em;
+    -moz-column-width: 100%;
+    -webkit-column-width: 100%;
   }
 }
 @media only screen and (max-width: 1200px) {
   .about-section {
     z-index: 1;
-    margin-top: 15%;
   }
 }
 @media only screen and (max-width: 1000px) {
   .about-section {
     z-index: 1;
-    margin-top: 20%;
   }
 }
 /****/
@@ -162,6 +160,7 @@ h2 {
   padding: 40px 50px 50px 50px;
 }
 #credentials {
+  text-align: center !important;
   margin-bottom: 90px;
 }
 .resume-title {
@@ -178,7 +177,7 @@ h2 {
   font-family: "Raleway", sans-serif;
 }
 .education {
-  margin-left: 50px;
+  margin-left: 60px;
 }
 #cert {
   color: #197985;
@@ -202,21 +201,14 @@ h2 {
   -webkit-transform: scale(1.1) rotate(0.01deg);
   transform: scale(1.1) rotate(0.01deg);
 }
-@media only screen and (max-width: 1000px) {
-    .resume {
-      margin-left: 5%;
-    }
-  }
 @media only screen and (max-width: 1200px) {
   .cred-title {
     padding-top: 75px;
   }
-}
-/* @media only screen and (max-width: 1200px) {
-  .credentials {
-    width: 1000px;
+  #credentials {
+    text-align: center;
   }
-} */
+}
 /****/
 /* bootcamp */
 .bootcamp-section {

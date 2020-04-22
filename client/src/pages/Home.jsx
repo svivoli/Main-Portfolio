@@ -21,7 +21,9 @@ function Home() {
                     <li><a href="/portfolio">PORTFOLIO</a></li>
                 </ul>
             </header>
+            <article className="article-home">
             <HomeMain />
+            </article>
             <Footer />
         </div>
     )
