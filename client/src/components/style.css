@@ -275,7 +275,8 @@ h2 {
 }
 /****/
 /* contact */
-.contact-grid {
+.contact-grid-item {
+  margin-top: 30px;
   margin-bottom: 70px;
 }
 .contact-blurb {
