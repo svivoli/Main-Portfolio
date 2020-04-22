@@ -17,7 +17,7 @@ function Home() {
                     </div>
                 </div>
                 <ul className="subnav-hero-subnav">
-                    <li><a href="/home" className="is-active">HOME</a></li>
+                    <li><a href="/" className="is-active">HOME</a></li>
                     <li><a href="/portfolio">PORTFOLIO</a></li>
                 </ul>
             </header>

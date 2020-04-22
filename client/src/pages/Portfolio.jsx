@@ -17,7 +17,7 @@ function Portfolio() {
                     </div>
                 </div>
                 <ul className="subnav-hero-subnav">
-                    <li><a href="/home">HOME</a></li>
+                    <li><a href="/">HOME</a></li>
                     <li><a href="/portfolio" className="is-active">PORTFOLIO</a></li>
                 </ul>
             </header>
