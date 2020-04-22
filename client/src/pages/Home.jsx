@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from '../components/Header';
+// import Header from '../components/Header';
 import HomeMain from '../components/HomeMain';
 import Footer from '../components/Footer';
 import './style.css';
@@ -7,7 +7,20 @@ import './style.css';
 function Home() {
     return (
         <div>
-            <Header />
+            <header className="subnav-hero-section">
+                <div className="container demo">
+                    <div className="content">
+                        <div id="large-header" className="large-header">
+                            <canvas id="demo-canvas"></canvas>
+                            <h1 className="main-title"><span className="thin">Sarah Vivoli</span></h1>
+                        </div>
+                    </div>
+                </div>
+                <ul className="subnav-hero-subnav">
+                    <li><a href="/home" className="is-active">HOME</a></li>
+                    <li><a href="/portfolio">PORTFOLIO</a></li>
+                </ul>
+            </header>
             <HomeMain />
             <Footer />
         </div>

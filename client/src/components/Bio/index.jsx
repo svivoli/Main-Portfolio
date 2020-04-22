@@ -8,7 +8,7 @@ function Bio() {
 
                 <div className="bio-head">
                     <h2 className="title">Get to know me</h2>
-                    <img className="biopic" src="assets/images/beach.jpg" width="95" height="95" alt="Hey, That's Me"></img>
+                    <img className="biopic" src={require("../../images/beach.jpg")} width="95" height="95" alt="Hey, That's Me"></img>
                 </div>
                     <p>I was born and raised in Silicon Valley and moved to Oregon
                     to attend college at the University of Oregon. I am now 25 years young living in Portland where
