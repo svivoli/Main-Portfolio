@@ -1,7 +1,7 @@
 import React from 'react';
 import '../style.css';
 
-function PortfolioDescription() {
+function PortfolioBlurb() {
     return (
         <div class="portfolio-description">
         <h2 class="title">My Works</h2>
@@ -15,4 +15,4 @@ function PortfolioDescription() {
     )
 };
 
-export default PortfolioDescription;
+export default PortfolioBlurb;
