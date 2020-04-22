@@ -9,8 +9,8 @@ function Credentials() {
 
                 <h2 className="cred-title">Credentials</h2>
 
-                <div className="credentials uk-child-width-expand@s" uk-grid>
-                    <div id="credentials" className="uk-grid-item-match">
+                <div className="credentials row">
+                    <div id="credentials" className="col-md-6">
                         <div className="education uk-card uk-card-default uk-card-body">
                             <h3>Education</h3>
                             <ul id="education">
@@ -33,7 +33,7 @@ function Credentials() {
                             </ul>
                         </div>
                     </div>
-                    <div className="resume">
+                    <div className="resume col-md-6">
                         <h3 className="resume-title">Resume</h3>
                         <p className="resume-text">
                             You can view my full resume by clicking the icon below. 
