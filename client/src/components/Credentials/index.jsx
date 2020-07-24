@@ -39,7 +39,7 @@ function Credentials() {
                             You can view my full resume by clicking the icon below. 
                             <br></br> Feel free to download a copy.
                         </p>
-                        <a href="https://documentcloud.adobe.com/link/track?uri=urn%3Aaaid%3Ascds%3AUS%3A04e3edc9-a4cb-4374-bcc0-4f7d67aed53c"
+                        <a href="https://docs.google.com/document/d/1b6A9ozH5cCtmIXL8ofTj42cc1zdIvS2qXMUR8doJXE8/edit?usp=sharing"
                             target="_blank"><i className="document fas fa-file-alt"></i></a>
                     </div>
                 </div>
