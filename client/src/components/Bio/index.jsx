@@ -12,7 +12,7 @@ function Bio() {
                 </div>
                     <p>I was born and raised in Silicon Valley and moved to Oregon
                     to attend college at the University of Oregon. I am now 25 years young living in Portland where
-                    I am earning a
+                    I recently earned a
                     certificate for full stack web development. I first started coding when I was 12 or 13, learning
                     the basics
                     of html and css to update my MySpace page. My interest really kicked off in college in the midst
