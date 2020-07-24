@@ -266,6 +266,17 @@ h2 {
   -webkit-transform: scale(1.1) rotate(0.01deg);
   transform: scale(1.1) rotate(0.01deg);
 }
+.social1 {
+  margin-left: 50%;
+  margin-bottom: 20px;
+  font-size: 80px;
+  color: #e0fcae;
+}
+.social1:hover {
+  color: gray;
+  -webkit-transform: scale(1.1) rotate(0.01deg);
+  transform: scale(1.1) rotate(0.01deg);
+}
 /****/
 /* contact */
 .contact-grid-item {

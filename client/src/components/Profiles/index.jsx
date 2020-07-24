@@ -19,7 +19,7 @@ function Profiles() {
                 </div>
                 <div className="row">
                     <div className="col-lg-4 col-md-4 col-sm-3 col-4">
-                        <a href="https://github.com/svivoli" target="_blank"><i className="social fab fa-github"></i></a>
+                        <a href="https://github.com/svivoli" target="_blank"><i className="social1 fab fa-github"></i></a>
                     </div>
                     <div className="col-lg-8 col-md-8 col-sm-9 col-8">
                         <h4>GitHub</h4>
