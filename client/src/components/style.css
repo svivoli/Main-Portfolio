@@ -305,6 +305,10 @@ h2 {
   .outerbox {
     margin-top: 90%;
   }
+  .contact-blurb {
+    padding-left: 70px !important;
+    padding-right: 70px;
+  }
 }
 /****/
 /******* portfolio *******/

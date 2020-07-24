@@ -13,7 +13,7 @@ function Contact() {
                         <a href="mailto:snvivoli@gmail.com" className="contact">snvivoli@gmail.com</a>
                     </div>
                 </div>
-                <div className="contact-grid-item col-lg-6 col-md-6 col-sm-12">
+                <div className="contact-blurb contact-grid-item col-lg-6 col-md-6 col-sm-12">
                     <p>Comment on my work, connect me with a colleague, or send me a business inquiry. I even accept restaurant suggestions in the Portland area.</p>
                 </div>
                 <div className="contact-grid-item col-lg-3 col-md-3 col-sm-12">
