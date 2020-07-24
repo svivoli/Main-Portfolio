@@ -12,10 +12,10 @@ function Credentials() {
                 <div className="credentials row">
                     <div id="credentials" className="col-lg-6 col-md-6 col-sm-4 col-3">
                         <div className="education uk-card uk-card-default uk-card-body">
-                            <h3>Education</h3>
+                            <h3 className="education-title">Education</h3>
                             <ul id="education">
                                 <li>
-                                    <h4 id="cert"><strong>Web Development Certification</strong></h4>
+                                    <h4 id="cert"><strong>Web Development Certificate</strong></h4>
                                 </li>
                                 <ul id="education">
                                     <li>

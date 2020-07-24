@@ -180,6 +180,9 @@ h2 {
 .education {
   margin-left: 60px;
 }
+.education-title {
+  margin-bottom: 20px;
+}
 #cert {
   color: #197985;
 }
@@ -209,7 +212,11 @@ h2 {
   #credentials {
     text-align: center;
   }
+  .resume {
+    margin-bottom: 20px;
+  }
 }
+
 /****/
 /* bootcamp */
 .bootcamp-section {
